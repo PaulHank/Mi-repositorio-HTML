@@ -1,0 +1,324 @@
+@import '//use.fontawesome.com/releases/v5.7.2/css/all.css';
+@import '//fonts.googleapis.com/css?family=Cinzel:400,700';
+@import '//fonts.googleapis.com/css?family=Bree+Serif';
+
+body {
+  background: rgb(0, 0, 0) url(fondo.jpg) fixed top center;
+  background-size: cover;
+  margin: 100px;
+  font-family: cinzel;
+  color: #d9d9d4;
+  font-size: 5;
+  display: block;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-align: justify;
+}
+
+logo {
+  display:flex;
+  justify-content: center;
+}
+
+logo img{
+display: flex;
+align-content: center;
+width: 20%;
+height: 20%;
+}
+
+.barra-inicio {
+display: flex;
+justify-content: space-between;
+margin: 10px;
+padding: 10px;
+text-align: right;
+vertical-align: middle;
+}
+
+.barra-inicio a {
+color: #d9d9d4;
+text-decoration: none;
+display: flex;
+justify-content: center;
+padding: 10px 0;
+margin: 20px;
+margin-bottom: 1px;
+text-transform: uppercase;
+text-shadow: 0 0 10px black;
+}
+
+social {
+display: block;
+text-align: center;
+padding-top: 10px;
+font-size: 30px;
+}
+
+social a {
+padding: 50px;
+text-shadow: 0 0 10px rgb(233, 231, 229);
+font-size: 20px;
+}
+
+social a:hover {
+color: rgb(102, 171, 199);
+}
+  
+menu a:hover {
+  border-bottom: 1px solid;
+  margin-bottom: 0;
+}
+
+.pie-pagina {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.pie-pagina ul{
+  flex: 1;
+padding-left:0;
+list-style-type: none;
+margin: 1;
+background-color: #000000; opacity: 0.8;
+border: inset 4px;
+border-color: #d9d9d4;
+}
+
+.pie-pagina ul li a:hover{ 
+border-bottom: 2px solid mediumslateblue;
+}
+
+.pie-pagina ul li{
+color: white;
+text-align: center;
+text-decoration: none;
+}
+
+.RickRoll {
+border: inset 8px;
+}
+
+.About {
+padding-bottom: 3cm;
+text-align: center;
+margin: 0.5em 0.5em 0.5em
+}
+
+.About a{
+color:rgb(0, 255, 242);
+}
+
+.facebook {
+color: rgb(81, 81, 255);
+}
+
+.twitter {
+color: lightblue;
+}
+
+.github {
+color: rgb(97, 59, 97);
+}
+
+.instagram {
+color: rgb(240, 191, 99);
+}
+
+.youtube {
+color: red;
+}
+
+extra {
+  text-align: center;
+  font-size: large;
+}
+
+extra a {
+  color: rgb(221, 193, 248);
+}
+
+extra a:hover{
+border-bottom: 2px solid;
+}
+
+/*Pagina de inicio*/
+
+main  {
+border: 0.01cm ridge ;
+background-color: black; opacity: 0.6;
+padding: 0.5em;
+background-size: fixed;
+font-family: 'Bree Serif', serif;
+font-size: 16px;
+margin-bottom: 1cm;
+}
+
+.imagen img {
+width: 100%;
+border-style: inset; color: rgba(124, 39, 39, 0.432);
+}
+
+/*Pagina de lanzamientos/albumes */
+
+lanzamientos {
+ display: flex;
+ flex-direction: column;
+ padding: 100px 0 0;
+ text-align: center;
+ align-items: center;
+}
+
+lanzamientos ul {
+list-style-type: none;
+position: relative;
+text-align: center;
+opacity: 1;
+color: white;
+padding-bottom: 25mm;
+padding-left: 0;
+}
+
+.Link {
+width: 300px;
+height: 300px;
+display: flex;
+background-size: contain;
+justify-content: center;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 0 0 50px black;
+}
+
+/* Paginas de los objetos a vender */
+
+.Objeto {
+  display: flex;
+  width: 50%;
+  height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+  margin-right: auto;
+  vertical-align: top;
+  box-shadow: 0 0 50px rgb(255, 72, 0);
+}
+
+.Objeto2 {
+  display: flex;
+  width: 50%;
+  height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+  box-shadow: 0 0 50px rgb(0, 255, 242);
+}
+
+.Objeto3 {
+display: flex;
+width: 50%;
+height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+  box-shadow: 0 0 50px rgb(161, 0, 0);
+}
+
+.TextoObjeto {
+  font-size: xx-large;
+  font-family: Metal Mania, sans-serif;
+  color: aliceblue;
+  list-style: none;
+  opacity: 0.6;
+  vertical-align: middle;
+}
+
+.TextoObjeto a{
+  text-decoration: none;
+  color: bisque;
+  font-size: large;
+}
+
+.comprar {
+  background-color: rgb(87, 45, 45); opacity: 0.75;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  border-style: ridge;
+  border-color: #d9d9d4;
+  border-radius: 50px;
+}
+
+.boton {
+  color: white; 
+  text-decoration: none;
+}
+
+.boton:hover{
+  color: red;
+  font-family: 'Metal Mania';
+  font-size: 25px;
+}
+
+table {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 100%;
+  font-weight: bold;
+  margin-left: 40%;
+  margin-right: 50%;
+  box-shadow: 0 0 33px white;
+}
+
+table h1 {
+  color: #ea503f;
+  font-family: Arial;
+  text-align: center
+}
+
+button {
+  font-family: Cinzel;
+  font-weight: bold;
+  border-style:hidden;
+  border-radius: 9px;
+  border: none;
+  font-size: 14px;
+  color: #cc8a8a;
+  background-color: #121212;
+  display: inline-block;
+  margin-left: 45%;
+  margin-right: 50%;
+  align-items: center;
+  margin-top: 1%;
+}
+
+button:hover {
+  box-shadow: 0 0 20px orange;
+  text-shadow: 0 0 30px black;
+  font-size: larger;
+}
+
+/*Tabletas de 7 pulgadas, mas o menos*/
+@media screen and (max-width:480px), (max-height:720px) {
+  .barra-inicio {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+/*Mobiles y tabletas en vertical*/
+@media screen and (max-width:480px) {
+  .barra-inicio, .pie-pagina{
+    flex-direction: column;
+    align-items: center;
+}
+
+.TextoObjeto {
+  font-size: small;
+  margin-top: 1cm;
+}
+}
