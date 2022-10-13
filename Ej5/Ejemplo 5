@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-">
+html
+<title>Ejemplos de tablas</title>
+</head>
+<body>
+    <table border= "1"></table>
+    <caption>
+        Empleados de la empresa
+        </caption>
+        <thead>
+            <tr>
+                <td rowspan="2">Jefe de departamento</td>
+                <td>Jefe seccion</td>
+                <td>Empleado</td>
+                <td>edad empleado</td>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Alberto Martin</td>
+                    <td>Martin Lopez</td>
+                    <td>Maite Suarez</td>
+                    <td>55</td>
+            </tbody>
+            <tr>
+                <td>Luis Morales</td>
+                <td>Mateo Carralde</td>
+                <td>33</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Diana Rodriguez</td>
+                <td>Carlos Hernandez</td>
+                <td>Alberto Fernandez</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td rowspan=2>Luis Perez</td>
+                <td>Diego Gutirrez</td>
+                <td>44</td>
+            </tr>
+        </tbody>
+    <br />
+    <br />
+    <table border="1">
+        <thead>
+            <tr>
+                <th colspan="4">Diferencias entre el hombre y el perro</th>
+            </tr>
+            <tr>
+                <td rowspan="2">Diferencias</td>
+                <td rowspan="2">Perro</td>
+                <td rowspan="2">Hombre</td>
+            </tr>
+            <tr>
+            <th>PEQUEÑO</th>
+            <th>GRANDE</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>                
+                <td>Duracion de crecimiento</td>
+                <td>10 meses</td>
+                <td>3 mese</td>
+                <td>16 años</td>
+            </tr>
+            <tr>
+                <td>Tiempo de gestacion</td>
+                <td colspan="2">58 a 63 dias</td>
+                <td>9 meses</td>
+            </tr>
+            <tr>
+                <td>Durcion de vida del pelo</td>
+                <td colspan="2">1 año</td>
+                <td>2 a 7 años</td>
+            </tr>
+        </thead>
+    </table>
+    <br>
+    <br>
+    <table border="1">
+        <caption>
+            analisis de ventas anuales
+        </caption>
+        <thead>
+            <tr>
+                <thc rowspan="2">AÑO</thc>
+                <th colspan="4">Expansión de ventas</thc>
+            </tr>
+            <tr>
+                <th>Producto A</th>
+                <th>Producto B</th>
+                <th>Producto C</th>
+                <th>Producto D</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>
+                    N-3
+                </th>
+                <td>4</td>
+                <td>4</td>
+                <td>7</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <th>
+                    N-2
+                </th>
+                <td>3</td>
+                <td>5</td>
+                <td>8</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <th>N</th>
+                <td>5</td>
+                <td>7</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr></tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th rowspan="2">AÑO</th>
+                <th>Producto A</th>
+                <th>Producto B</th>
+                <th>Producto C</th>
+                <th>Producto D</th>
+            </tr>
+            <tr>
+                <th colspan="4">Expansion de ventas</th>
+            </tr>
+        </tfoot>
+    </table>
+    </body>
+</html>

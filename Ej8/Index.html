@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <label>
+        <label for="nombre">Nombre</label>
+        <br />
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre" maxlength="30" maxsize="30" required="requireds"/>
+        <br>
+        <input type="text" id="apellido" name="apellido" placeholder="Apellidos" maxlength="80" maxsize="80"/>
+        <br>
+        </label for="contraseña">Contraseña</label>
+        <br>
+        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" minlength="5" maxlength="10"/>
+        <br>
+        <label for="DNI">DNI</label>
+        <br>
+        <input type="password" name="dni" id="dni" placeholder="Ej: 123456789A" pattern="[0-9]{8}[A-Za-z]{1}" minlength="9" maxlength="9"/>
+        <br>
+        <label for="sexo">sexo</label>
+        <br>
+        <input type="radio" name="sexo" id="hombre" checked value="hombre"/>
+        <label for="hombre">hombre</label>
+        <br>
+        <input type="radio" name="sexo" id="mujer"/>
+        <label for="mujer">mujer</label>
+        <br>
+        <label for="foto">foto</label>
+        <input type="file" name="foto" id="foto"/>
+        <br>
+        <input type="checkbox" name="novedades" id="novedades" checked/>
+        <label for="novedades">Subscribirse al boletin de novedades</label>
+        <br>
+        <input:submit type="submit" value="Guardar cambieos" />
+        <input:reset type="reset" value="restearse"/>
+    </form>
+</body>
+</html>
